@@ -3,19 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://example.org/</loc>
+    <loc>https://jordennorton.netlify.app/</loc>
     <lastmod>2024-12-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://example.org/posts/1733158062092-new-article/</loc>
+    <loc>https://jordennorton.netlify.app/posts/1733158062092-new-article/</loc>
     <lastmod>2024-12-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://example.org/posts/</loc>
+    <loc>https://jordennorton.netlify.app/posts/</loc>
     <lastmod>2024-12-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
