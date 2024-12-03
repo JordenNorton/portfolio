@@ -3,3 +3,11 @@
 /workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+
+# Ignore build and dist directories
+/dist/
+/build/
+
+# Ignore generated bundles
+*.bundle.min.*
+*.map
