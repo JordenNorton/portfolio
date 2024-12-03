@@ -14,10 +14,10 @@ node_modules/
 jspm_packages/
 
 # Build directories
-dist/
-build/
-.out/
-.tmp/
+#dist/
+#build/
+#.out/
+#.tmp/
 
 # Frontend Build Artifacts
 *.bundle.min.*
@@ -64,9 +64,9 @@ tasks.xml
 *.pid.lock
 
 # Hugo/Static Site Generators (if relevant)
-public/
-resources/_gen/
-hugo_stats.json
+#public/
+#resources/_gen/
+#hugo_stats.json
 
 # Package lock files (optional, depending on your team preferences)
 package-lock.json
