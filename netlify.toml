@@ -1,0 +1,29 @@
+[build]
+command = "hugo --gc --minify -D -b $URL"
+publish = "public"
+
+[build.environment]
+HUGO_VERSION = "0.104.1"
+HUGO_ENV = "production"
+HUGO_THEMESDIR = "themes"
+HUGO_THEME = "blowfish"
+TZ = "Europe/London"
+
+[context.production.environment]
+HUGO_VERSION = "0.104.1"
+HUGO_ENV = "production"
+
+[context.production]
+command = "git submodule update --init --recursive && hugo --gc --minify -D -b $URL"
+
+[context.deploy-preview]
+command = "git submodule update --init --recursive && hugo --gc --minify -D -b $DEPLOY_PRIME_URL"
+
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.104.1"
+
+[context.branch-deploy]
+command = "git submodule update --init --recursive && hugo --gc --minify -D -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy.environment]
+HUGO_VERSION = "0.104.1"
