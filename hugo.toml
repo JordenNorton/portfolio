@@ -1,4 +1,4 @@
 baseURL = 'https://jordennorton.netlify.app/'
 languageCode = 'en-us'
 title = 'Jorden Norton'
-theme = "blowfish"
+themesDir = "themes"
