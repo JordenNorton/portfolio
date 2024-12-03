@@ -8,15 +8,15 @@ yarn-error.log*
 logs/
 *.log
 
-# Hugo/Static Site Generators
-resources/_gen/
-hugo_stats.json
+## Hugo/Static Site Generators
+#resources/_gen/
+#hugo_stats.json
 
-# Build directories (comment out if building locally)
-public/
-dist/
-build/
-.tmp/
+## Build directories (comment out if building locally)
+#public/
+#dist/
+#build/
+#.tmp/
 
 # Frontend Build Artifacts
 *.bundle.min.*
