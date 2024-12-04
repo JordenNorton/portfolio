@@ -3,25 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://jordennorton.netlify.app/posts/1733158062092-new-article/</loc>
+    <loc>http://localhost:1313/posts/1733158062092-new-article/</loc>
     <lastmod>2024-12-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://jordennorton.netlify.app/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-12-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://jordennorton.netlify.app/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-12-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://jordennorton.netlify.app/russian/</loc>
+    <loc>http://localhost:1313/russian/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
