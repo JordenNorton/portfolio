@@ -26,14 +26,13 @@
 
 [[main]]
 name = "Geography"
-parent = "Topics"
-pageRef = "posts"
-
+parent = "Studies"
+pageRef = "geography"
 
 [[main]]
   name = "Русский"
-  parent = "Topics"
-  pageRef = "posts"
+  parent = "Studies"
+  pageRef = "russian"
 
 
 

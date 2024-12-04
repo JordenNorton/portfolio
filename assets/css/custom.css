@@ -122,3 +122,57 @@
         max-width: 300px; /* Prevents items from being too wide */
     }
 }
+
+
+/* ----------------------- Russian Page Styles ----------------------*/
+.hero-section {
+    display: flex;
+    align-items: center; /* Vertically center */
+    justify-content: center; /* Horizontally center */
+    flex-direction: column; /* Stack content vertically */
+    padding: 20px; /* Add some padding */
+    background-color: #3B4252; /* Soft blue-gray */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+}
+
+.hero-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.hero-accent {
+    width: 60px;
+    margin: 0.5rem auto;
+    background: linear-gradient(to right, #4A90E2, #56CCF2); /* Gradient accent */
+    height: 2px;
+}
+
+.hero-subtitle {
+    font-size: 1rem;
+    color: #9ca3af; /* Subtle text color */
+    text-align: center; /* Align the subtitle to the center */
+}
+.hero-icon {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Keep it proportional */
+    margin-bottom: 10px; /* Space between the flag and the text */
+}
+
+/* ----------------------- Animations ----------------------*/
+
+/* Keyframe for fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
