@@ -13,11 +13,11 @@ resources/_gen/
 hugo_stats.json
 
 # Build directories (comment out if building locally)
+/public
 public/
 dist/
 build/
 .tmp/
-/public
 
 # Frontend Build Artifacts
 *.bundle.min.*
