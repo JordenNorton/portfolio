@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Jorden Norton | Blog"
+title = "Jorden Norton"
 
 [params]
 displayName = "EN"
@@ -10,9 +10,9 @@ isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
 #logo = "profile-pic.png"
-author = { name = "Jorden Norton", image = "profile-pic.png", headline = "Let’s Automate, Innovate, and Make Things Happen", bio = "", links = [
+author = { name = "Jorden Norton", image = "profile-pic.png", headline = "Automate, Innovate, and Make Things Happen", bio = "", links = [
     { linkedin = "https://www.linkedin.com/in/jorden-norton-086039161/" },
-    { github = "https://github.com/nunocoracao/blowfish" },
-    { instagram = "https://masto.ai/@blowfish" },
+    { github = "https://github.com/JordenNorton" },
+    { instagram = "https://www.instagram.com/jorden_norton/" },
 ] }
 secondaryLogo = "profile-pic.png"
