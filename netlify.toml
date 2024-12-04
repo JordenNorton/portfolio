@@ -8,6 +8,7 @@ HUGO_ENV = "production"
 HUGO_THEMESDIR = "themes"
 HUGO_THEME = "blowfish"
 TZ = "Europe/London"
+GIT_SUBMODULE_STRATEGY = "recursive"
 
 [context.production.environment]
 HUGO_VERSION = "0.104.1"
