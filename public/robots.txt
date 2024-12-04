@@ -1,1 +1,3 @@
 User-agent: *
+Allow: /
+Sitemap: https://jordennorton.netlify.app/sitemap.xml
