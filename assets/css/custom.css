@@ -135,6 +135,9 @@
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+    max-width: 90%; /* Limit width for smaller devices */
+    margin: auto; /* Center the hero section horizontally */
+    text-align: center; /* Ensure text alignment works across devices */
 }
 
 .hero-title {
@@ -156,12 +159,30 @@
     color: #9ca3af; /* Subtle text color */
     text-align: center; /* Align the subtitle to the center */
 }
+
 .hero-icon {
     width: 50px; /* Adjust size as needed */
     height: 50px; /* Keep it proportional */
     margin-bottom: 10px; /* Space between the flag and the text */
 }
 
+/* Mobile optimization */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 15px; /* Reduce padding for smaller screens */
+        max-width: 95%; /* Ensure it doesn't span too wide */
+    }
+    .hero-title {
+        font-size: 1.6rem; /* Slightly smaller for readability */
+    }
+    .hero-subtitle {
+        font-size: 0.9rem; /* Adjust subtitle size */
+    }
+    .hero-icon {
+        width: 40px; /* Smaller icon for mobile */
+        height: 40px;
+    }
+}
 /* ----------------------- Animations ----------------------*/
 
 /* Keyframe for fade-in animation */
