@@ -23,6 +23,8 @@
 [[main]]
   name = "Projects"
   weight = 20
+  pageRef = "projects"
+
 
 [[main]]
 name = "Geography"

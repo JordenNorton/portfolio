@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .about-me {
     margin-top: 1rem;
     padding: 1rem;
@@ -197,3 +201,98 @@
     }
 }
 
+
+/* ----------------------- Projects Page ----------------------*/
+
+#projects-page {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    /*color: #ffffff;*/
+}
+
+#projects-page h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    /*color: #e5e9f0;*/
+    font-family: 'Montserrat', sans-serif; /* Section Header */
+}
+
+.project {
+    /*background-color: #3B4252;*/
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.project-logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 2px solid #e5e9f0;
+}
+
+.project-title-description h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px; /* Space below the title */
+    margin-left: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.project-details {
+    margin-top: 10px;
+    padding-top: 10px;
+    /*border-top: 1px solid rgba(255, 255, 255, 0.1);*/
+}
+
+.project-card:not(:last-child) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-status {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    color: #fdf6e3;
+    background-color: #4caf50; /* Green for Completed */
+    margin-bottom: 15px; /* Space below the status */
+    font-weight: 600;
+}
+
+.in-progress {
+    background-color: #ffc107; /* Yellow for In Progress */
+    color: #3B4252;
+}
+
+.project-description {
+    font-size: 1rem;
+    line-height: 1.5; /* Increase line spacing for readability */
+    margin-top: 10px; /* Space above the description */
+    margin-left: 5px;
+    margin-bottom: 20px; /* Space below the description */
+    font-family: 'Poppins', sans-serif;
+}
+
+.project-divider {
+    height: 2px; /* Thickness of the divider */
+    background: linear-gradient(to right, #4cafb0, #a8dadc); /* Teal tones */
+    margin: 20px 0; /* Space above and below */
+    border-radius: 5px; /* Smooth rounded edges */
+    opacity: 0.7; /* Slightly translucent for a softer effect */
+}
