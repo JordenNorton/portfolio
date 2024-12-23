@@ -11,12 +11,12 @@
     
     <item>
       <title>Post Examples</title>
-      <link>http://localhost:1313/posts/post-examples/</link>
+      <link>http://localhost:1313/posts/russian/post-examples/</link>
       <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/post-examples/</guid>
+      <guid>http://localhost:1313/posts/russian/post-examples/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/post-examples/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/russian/post-examples/featured.png" />
     </item>
     
   </channel>
