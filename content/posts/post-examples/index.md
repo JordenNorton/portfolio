@@ -3,10 +3,8 @@ title: "Post Examples"
 date: 2024-12-02
 draft: false
 description: "a post with example text"
-#tags: ["example", "tag", "russian"]
-tags:
-  - russian
-
+tags: ["russian"]
+summary: "An exciting deep dive into common Russian words and phrases."
 ---
  Post example
 # This is a heading

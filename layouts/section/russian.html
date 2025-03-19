@@ -1,0 +1,64 @@
+{{ define "main" }}
+<div class="hero-section">
+    <img src="/img/russian_flag.svg" alt="Russian Flag" class="hero-icon">
+    <h1 class="hero-title">Добро пожаловать в русский язык!</h1>
+
+    <div class="hero-accent"></div>
+    <p class="hero-subtitle">я изучаю русский язык и записываю процесс здесь</p>
+</div>
+
+<div class="container mx-auto px-4 py-8"> <!-- Wrapper for overall page width -->
+    <!-- Grid with enforced gaps -->
+    <div class="russian-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"> <!-- Added 'gap-8' for spacing -->
+        {{ range .Site.RegularPages }}
+        {{ if in .Params.tags "russian" }}
+        {{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
+        <a href="{{ .RelPermalink }}" class="block"> <!-- Block to avoid full-width stretching -->
+            <div class="russian-card min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-md relative">
+                <!-- Image Section -->
+                {{ if not .Params.hideFeatureImage }}
+                {{- $images := .Resources.ByType "image" -}}
+                {{- $featured := $images.GetMatch "*feature*" -}}
+                {{ if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
+                {{ if and .Params.featureimage (not $featured) }}
+                {{ $featured = resources.GetRemote .Params.featureimage }}
+                {{ end }}
+                {{ if not $featured }}{{ with .Site.Params.defaultFeaturedImage }}{{ $featured = resources.Get . }}{{ end }}{{ end }}
+
+                {{ with $featured }}
+                {{ if or $disableImageOptimization (strings.HasSuffix $featured ".svg") }}
+                <img src="{{ .RelPermalink }}" alt="{{ .Title | plainify }}" class="w-full h-48 object-contain">
+                {{ else }}
+                {{ with .Resize "600x" }}
+                <img src="{{ .RelPermalink }}" alt="{{ .Title | plainify }}" class="w-full h-48 object-contain">
+                {{ end }}
+                {{ end }}
+                {{ else }}
+                <!-- Fallback or No Image -->
+                <img src="/img/default_post_image.jpg" alt="Default Post Image" class="w-full h-48 object-contain">
+                {{ end }}
+                {{ end }}
+
+                <!-- Text Content Section -->
+                <div class="p-4">
+                    <div class="font-bold text-lg text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral-200">
+                        {{ .Title | emojify }}
+                    </div>
+
+                    <div class="text-sm text-neutral-500 dark:text-neutral-400 mt-2">
+                        {{ partial "article-meta/basic.html" . }}
+                    </div>
+
+                    {{ if .Params.showSummary | default (.Site.Params.list.showSummary | default false) }}
+                    <div class="mt-4 text-sm text-neutral-600 dark:text-neutral-300">
+                        {{ .Summary | plainify }}
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </a>
+        {{ end }}
+        {{ end }}
+    </div>
+</div>
+{{ end }}

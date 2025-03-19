@@ -6,8 +6,28 @@
     <description>Recent content in Posts on Jorden Norton</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 Jorden Norton</copyright>
+    <copyright>© 2025 Jorden Norton</copyright>
     <lastBuildDate>Mon, 23 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Russian Post Example</title>
+      <link>http://localhost:1313/posts/russian/russian-post-example-three/</link>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/russian/russian-post-example-three/</guid>
+      <description>An exciting deep dive into common Russian words and phrases.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/russian/russian-post-example-three/featured.png" />
+    </item>
+    
+    <item>
+      <title>Russian Post Example</title>
+      <link>http://localhost:1313/posts/russian/russian-post-example-two/</link>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/russian/russian-post-example-two/</guid>
+      <description>An exciting deep dive into common Russian words and phrases.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/russian/russian-post-example-two/featured.png" />
+    </item>
     
     <item>
       <title>Russian Post Example</title>
@@ -15,7 +35,7 @@
       <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/russian/russian-post-example/</guid>
-      <description></description>
+      <description>An exciting deep dive into common Russian words and phrases.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/russian/russian-post-example/featured.png" />
     </item>
     
@@ -25,7 +45,7 @@
       <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/post-examples/</guid>
-      <description></description>
+      <description>An exciting deep dive into common Russian words and phrases.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/post-examples/featured.png" />
     </item>
     
