@@ -2,3 +2,6 @@ baseURL = 'https://jordennorton.netlify.app/'
 languageCode = 'en-us'
 title = 'Jorden Norton'
 themesDir = "themes"
+module:
+    imports:
+        - path: github.com/nunocoracao/blowfish
