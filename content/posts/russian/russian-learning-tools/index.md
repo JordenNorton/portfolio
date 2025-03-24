@@ -1,10 +1,10 @@
 ---
 title: "Начинаю свой путь: Resources & Tools"
-date: 2024-12-23
+date: 2025-03-24
 draft: false
-description: "a post with example text"
+description: ""
 tags: ["russian"]
-summary: "An exciting deep dive into common Russian words and phrases."
+summary: ""
 ---
 
 # This is a heading

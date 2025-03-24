@@ -3,48 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://192.168.0.100:1313/posts/</loc>
     <lastmod>2024-12-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/russian/russian-post-example-three/</loc>
+    <loc>http://192.168.0.100:1313/</loc>
     <lastmod>2024-12-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/russian/russian-post-example-two/</loc>
+    <loc>http://192.168.0.100:1313/posts/russian/russian-learning-tools/</loc>
     <lastmod>2024-12-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/russian/russian-post-example/</loc>
-    <lastmod>2024-12-23T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-12-23T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/post-examples/</loc>
+    <loc>http://192.168.0.100:1313/posts/post-examples/</loc>
     <lastmod>2024-12-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>http://192.168.0.100:1313/projects/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/russian/</loc>
+    <loc>http://192.168.0.100:1313/russian/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
