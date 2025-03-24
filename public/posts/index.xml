@@ -2,51 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Jorden Norton</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>http://192.168.0.100:1313/posts/</link>
     <description>Recent content in Posts on Jorden Norton</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Jorden Norton</copyright>
-    <lastBuildDate>Mon, 23 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.0.100:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Russian Post Example</title>
-      <link>http://localhost:1313/posts/russian/russian-post-example-three/</link>
+      <title>Начинаю свой путь: Resources &amp; Tools</title>
+      <link>http://192.168.0.100:1313/posts/russian/russian-learning-tools/</link>
       <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/russian/russian-post-example-three/</guid>
+      <guid>http://192.168.0.100:1313/posts/russian/russian-learning-tools/</guid>
       <description>An exciting deep dive into common Russian words and phrases.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/russian/russian-post-example-three/featured.png" />
-    </item>
-    
-    <item>
-      <title>Russian Post Example</title>
-      <link>http://localhost:1313/posts/russian/russian-post-example-two/</link>
-      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/russian/russian-post-example-two/</guid>
-      <description>An exciting deep dive into common Russian words and phrases.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/russian/russian-post-example-two/featured.png" />
-    </item>
-    
-    <item>
-      <title>Russian Post Example</title>
-      <link>http://localhost:1313/posts/russian/russian-post-example/</link>
-      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/russian/russian-post-example/</guid>
-      <description>An exciting deep dive into common Russian words and phrases.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/russian/russian-post-example/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://192.168.0.100:1313/posts/russian/russian-learning-tools/featured.png" />
     </item>
     
     <item>
       <title>Post Examples</title>
-      <link>http://localhost:1313/posts/post-examples/</link>
+      <link>http://192.168.0.100:1313/posts/post-examples/</link>
       <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/post-examples/</guid>
+      <guid>http://192.168.0.100:1313/posts/post-examples/</guid>
       <description>An exciting deep dive into common Russian words and phrases.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/post-examples/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://192.168.0.100:1313/posts/post-examples/featured.png" />
     </item>
     
   </channel>

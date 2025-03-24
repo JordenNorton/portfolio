@@ -54,6 +54,13 @@
                         {{ .Summary | plainify }}
                     </div>
                     {{ end }}
+
+                    <!-- Card Summary Frontmatter -->
+                    {{ if .Params.cardSummary }}
+                    <div class="mt-4 text-sm text-neutral-600 dark:text-neutral-300">
+                        {{ .Params.cardSummary | plainify }}
+                    </div>
+                    {{ end }}
                 </div>
             </div>
         </a>

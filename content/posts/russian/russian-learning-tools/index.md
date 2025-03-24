@@ -1,5 +1,5 @@
 ---
-title: "Russian Post Example"
+title: "Начинаю свой путь: Resources & Tools"
 date: 2024-12-23
 draft: false
 description: "a post with example text"
