@@ -55,7 +55,7 @@ showTableOfContents = false
 showTaxonomies = false
 showAuthorsBadges = false
 showWordCount = true
-showZenMode = false
+showZenMode = true
 
 [list]
 showHero = false
@@ -103,12 +103,12 @@ cardViewScreenWidth = false
 
 [selineAnalytics]
 
-#[buymeacoffee]
-#identifier = "nunocoracao"
-#globalWidget = true
-#globalWidgetMessage = ""
-#globalWidgetColor = "#FFDD00"
-#globalWidgetPosition = "Right"
+[buymeacoffee]
+identifier = "jordennorton"
+globalWidget = true
+globalWidgetMessage = ""
+globalWidgetColor = "#FFDD00"
+globalWidgetPosition = "right"
 
 [verification]
 

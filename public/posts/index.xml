@@ -7,16 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Jorden Norton</copyright>
-    <lastBuildDate>Mon, 23 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.0.100:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.0.100:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Начинаю свой путь: Resources &amp; Tools</title>
       <link>http://192.168.0.100:1313/posts/russian/russian-learning-tools/</link>
-      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
       
       <guid>http://192.168.0.100:1313/posts/russian/russian-learning-tools/</guid>
-      <description>An exciting deep dive into common Russian words and phrases.</description>
+      <description>Testsss</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://192.168.0.100:1313/posts/russian/russian-learning-tools/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Урок Один: What, This &amp; Who</title>
+      <link>http://192.168.0.100:1313/posts/russian/%D1%83%D1%80%D0%BE%D0%BA-%D0%BE%D0%B4%D0%B8%D0%BD/</link>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.100:1313/posts/russian/%D1%83%D1%80%D0%BE%D0%BA-%D0%BE%D0%B4%D0%B8%D0%BD/</guid>
+      <description>This is a heading # Test This is another test, how are you?</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://192.168.0.100:1313/posts/russian/%D1%83%D1%80%D0%BE%D0%BA-%D0%BE%D0%B4%D0%B8%D0%BD/featured.svg" />
     </item>
     
     <item>
