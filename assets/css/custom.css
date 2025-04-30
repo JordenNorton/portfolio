@@ -310,3 +310,177 @@ html {
     padding: 1rem; /* Add padding for spacing */
     box-sizing: border-box;
 }
+
+/* Base callout style */
+.callout {
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  border-left: 5px solid;
+  border-radius: 6px;
+  background-color: #2a2a2a;
+  color: #f0f0f0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Title style */
+.callout strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* Tip (Green) */
+.callout.tip {
+  border-color: #4caf50;
+  background-color: #1f3324;
+}
+.callout.tip strong {
+  color: #81c784;
+}
+
+/* Warning (Orange) */
+.callout.warning {
+  border-color: #ff9800;
+  background-color: #352a1f;
+}
+.callout.warning strong {
+  color: #ffcc80;
+}
+
+/* Info (Blue) */
+.callout.info {
+  border-color: #42a5f5;
+  background-color: #1e2f3f;
+}
+.callout.info strong {
+  color: #90caf9;
+}
+
+/* Danger (Red) */
+.callout.danger {
+  border-color: #ef5350;
+  background-color: #3b1f1f;
+}
+.callout.danger strong {
+  color: #ef9a9a;
+}
+
+
+
+.vocab {
+  border-bottom: 1px dotted #aaa;
+  cursor: help;
+  color: #ffda77;
+}
+
+
+.dialogue {
+  background-color: #1e1e2f;
+  border-left: 4px solid #42a5f5;
+  padding: 1rem 1.25rem;
+  margin: 2rem 0;
+  border-radius: 6px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #f0f0f0;
+}
+
+.dialogue p {
+  margin: 0.5rem 0;
+}
+
+/* Speaker label styles */
+.dialogue .speaker-a {
+  color: #81c784; /* Soft green */
+  font-weight: bold;
+  display: inline-block;
+  width: 90px;
+}
+
+.dialogue .speaker-b {
+  color: #64b5f6; /* Soft blue */
+  font-weight: bold;
+  display: inline-block;
+  width: 90px;
+}
+
+
+ .vocab-pair {
+  font-weight: 500;
+  color: #ffd95a;
+  white-space: nowrap;
+}
+
+.vocab-pair .ru {
+    color: #fdd835;
+  }
+  
+  .vocab-pair .en {
+    color: #bbbbbb;
+    font-style: italic;
+  }  
+
+.key-vocab-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .key-vocab-box {
+    border-left: 4px solid #fdd835;
+    background-color: none;
+    padding: 1rem 1.25rem;
+    border-radius: 6px;
+    margin: 2rem 0;
+  }  
+  
+  html.dark .key-vocab-box {
+    background-color: #1f1f1f;
+  }
+  
+  
+ /* Default (light mode) */
+.key-vocab-box .ru {
+    color: #c99800;
+    font-weight: 600;
+  }
+  
+  /* Blowfish dark mode override */
+  html.dark .key-vocab-box .ru {
+    color: #ffeb3b;
+  }
+  
+  .key-vocab-box .en {
+    color: #777;
+    font-style: italic;
+  }
+  
+  html.dark .key-vocab-box .en {
+    color: #ccc;
+  }
+  
+  
+  .key-vocab-box ul {
+    padding-left: 1.2rem;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  .key-vocab-box li::before {
+    content: "—";
+    margin-right: 0.4rem;
+    color: #fdd835;
+  }
+  
+  .subtle-note {
+    font-style: italic;
+    color: #aaaaaa;
+    background-color: transparent;
+    margin: 2rem 0;
+    font-size: 0.95rem;
+    opacity: 0.85;
+    border-left: 3px solid #888;
+    padding-left: 1rem;
+  }
+  

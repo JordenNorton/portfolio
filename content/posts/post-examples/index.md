@@ -1,7 +1,7 @@
 ---
 title: "Post Examples"
 date: 2024-12-02
-draft: false
+draft: true
 description: "a post with example text"
 tags: [""]
 summary: "An exciting deep dive into common Russian words and phrases."
@@ -16,6 +16,18 @@ summary: "An exciting deep dive into common Russian words and phrases."
 {{< alert icon="fire" cardColor="#e63946" iconColor="#1d3557" textColor="#f1faee" >}}
 This is an error!
 {{< /alert >}}
+
+{{< callout type="tip" title="Grammar Tip" >}}
+“Кто” means “who” and is only used for people.
+{{< /callout >}}
+
+{{< callout type="warning" title="Watch Out" >}}
+Don't confuse “что” (what) with “чтобы” (in order to)!
+{{< /callout >}}
+
+{{< callout type="info" title="Culture Note" >}}
+In Russian, it's common to use “это” to introduce new topics.
+{{< /callout >}}
 
 {{< chart >}}
 type: 'bar',
